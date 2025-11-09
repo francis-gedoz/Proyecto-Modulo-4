@@ -78,6 +78,10 @@ src/
 └── main.js
 ```
 
+## src/data/reservas.txt
+
+Este archivo no tiene ninguna función práctica dentro del proyecto, sirve solamente para almacenar algunos ejemplos de reservas hoteleras para pruebas (hay que hacer POST manualmente y de forma individual para registrar las reservas).
+
 ---
 
 ## API Rest en Visual Studio Code
@@ -127,14 +131,8 @@ Una vez iniciado el servidor, se puede acceder a la documentación Swagger en:
 
 **http://localhost:3000/api/docs**
 
-Desde esta interfaz podrás:
+Desde esta interfaz se puede:
 
 - Consultar los endpoints disponibles.
 - Probar solicitudes `GET`, `POST`, `PUT` y `DELETE` directamente.
 - Visualizar las estructuras de entrada y salida esperadas.
-
----
-
-## src/data/reservas.txt
-
-Este archivo actúa solamente como un almacenaje de prueba con algunos ejemplos de reservas hoteleras (hay que hacer POST manualmente y de forma individual para registrar las reservas).

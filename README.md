@@ -36,8 +36,6 @@ La API permite:
    - Estado de la reserva 
    - Cantidad de huéspedes  
 
-7. **Almacenar todas las reservas** en una **estructura de datos persistente (archivo JSON)**.
-
 ---
 
 ## Tecnologías utilizadas

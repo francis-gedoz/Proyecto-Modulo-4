@@ -2,9 +2,7 @@
 
 ## Descripción
 
-Esta API permite **gestionar reservas hoteleras** de forma completa, ofreciendo operaciones CRUD (crear, leer, actualizar y eliminar) junto con potentes opciones de filtrado.  
-
-El proyecto fue desarrollado en **Node.js + Express**, utilizando una **estructura modular** y documentación automática con **Swagger UI**.  
+Esta API permite **gestionar reservas hoteleras** de forma completa, ofreciendo operaciones CRUD (crear, leer, actualizar y eliminar) junto con potentes opciones de filtrado. El proyecto fue desarrollado en **Node.js + Express**, utilizando una **estructura modular** y documentación automática con **Swagger UI**.  
 
 ---
 
@@ -57,8 +55,7 @@ La API permite:
 
 ## Enfoque sincrónico (sin async/await)
 
-Este proyecto fue diseñado para funcionar **de forma completamente sincrónica**, sin el uso de `async/await` ni promesas.  
-Las operaciones de lectura y escritura se realizan mediante el módulo nativo `fs`, lo cual **simplifica el flujo lógico del código** y facilita la comprensión de los procesos CRUD.
+Este proyecto fue diseñado para funcionar **de forma completamente sincrónica**, sin el uso de `async/await` ni promesas. Las operaciones de lectura y escritura se realizan mediante el módulo nativo `fs`, lo cual **simplifica el flujo lógico del código** y facilita la comprensión de los procesos CRUD.
 
 ---
 
